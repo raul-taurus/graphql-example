@@ -1,0 +1,38 @@
+.graph, .rest {
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.query, .output {
+    width: 50%;
+    height: 250px;
+    float: left;
+    white-space: pre;
+}
+
+.query {
+    background-color: #fee;
+    margin: 0;
+    border: none;
+    padding: 0;
+    resize: none;
+}
+
+.output {
+    background-color: #eff;
+    overflow: scroll;
+}
+
+.graph {
+    border: 1px solid orange;
+}
+
+.rest {
+    border: 1px solid purple;
+}
+
+.action {
+    clear: both;
+    padding: 10px;
+    text-align: center;
+}
